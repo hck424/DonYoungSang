@@ -1,0 +1,15 @@
+//
+//  PrefixHeader.pch
+//  BackgroundVideoPlayer
+//
+//  Created by 김학철 on 2020/05/12.
+//  Copyright © 2020 김학철. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define RGB(r, g, b) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define RGBA(r, g, b, a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a]
+
+#endif
